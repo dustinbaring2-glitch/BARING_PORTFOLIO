@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal portfolio of Dustin James Baring, a BSIT student at ACLC College."
+    />
+    <meta name="theme-color" content="#091116" />
+    <title>Dustin James Baring | BSIT Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Dustin Baring home">
+          <span class="brand-mark">DB</span>
+          <span>Dustin Baring<span class="brand-dot">.</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="primary-menu">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot"></span> BSIT STUDENT · ACLC COLLEGE</p>
+            <h1>Hi, I'm<br /><span>Dustin James</span><br />Baring<span class="accent">.</span></h1>
+            <p class="hero-description">
+              Learning to build thoughtful digital experiences, one project at a time.
+              Welcome to my portfolio.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Contact Me <span aria-hidden="true">↗</span></a>
+              <a class="button button-quiet" href="#projects"><span class="play-icon" aria-hidden="true">↓</span> View Projects</a>
+            </div>
+            <div class="hero-meta">
+              <span class="meta-line"></span>
+              <span>Kawit, Medellin, Cebu</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="portrait-frame">
+              <img
+                class="profile-picture"
+                src="images/profile.jpg"
+                alt="Portrait of Dustin James Baring"
+              />
+              <div class="portrait-caption">
+                <span class="caption-label">ASPIRING IT PROFESSIONAL</span>
+                <span class="caption-name">Dustin J. Baring <span aria-hidden="true">↗</span></span>
+              </div>
+            </div>
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+          </div>
+        </div>
+        <a class="scroll-hint" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+            <h2>Building a foundation<br />for <span class="accent">what's next.</span></h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-lead reveal">
+              I'm <strong>Dustin James Baring</strong>, an Information Technology student at
+              ACLC College. I'm developing my skills in programming and web development
+              through coursework, personal learning, and project work.
+            </p>
+            <div class="about-details reveal">
+              <p>
+                My goal is to grow into a capable IT professional, keep learning new
+                technologies, and create useful solutions with a thoughtful approach.
+              </p>
+              <div class="detail-row"><span>Based in</span><strong>Kawit, Medellin, Cebu</strong></div>
+              <div class="detail-row"><span>Currently studying</span><strong>BS Information Technology</strong></div>
+              <div class="detail-row"><span>At</span><strong>ACLC College</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow">02 / WHAT I'M LEARNING</p>
+              <h2>Skills & <span class="accent">toolkit.</span></h2>
+            </div>
+            <p class="section-aside">A growing set of technical and collaborative skills.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal"><span class="skill-index">01</span><span class="skill-icon">&lt;/&gt;</span><h3>PHP</h3><p>Server-side programming</p></article>
+            <article class="skill-card reveal"><span class="skill-index">02</span><span class="skill-icon">J.</span><h3>Java</h3><p>Programming fundamentals</p></article>
+            <article class="skill-card reveal"><span class="skill-index">03</span><span class="skill-icon">⌘</span><h3>HTML</h3><p>Semantic page structure</p></article>
+            <article class="skill-card reveal"><span class="skill-index">04</span><span class="skill-icon">✳</span><h3>CSS</h3><p>Responsive visual design</p></article>
+            <article class="skill-card reveal"><span class="skill-index">05</span><span class="skill-icon">▤</span><h3>MySQL</h3><p>Relational databases</p></article>
+            <article class="skill-card reveal"><span class="skill-index">06</span><span class="skill-icon">↗</span><h3>Web Development</h3><p>Basic front-end foundations</p></article>
+            <article class="skill-card reveal"><span class="skill-index">07</span><span class="skill-icon">◎</span><h3>Problem Solving</h3><p>Breaking challenges into steps</p></article>
+            <article class="skill-card reveal"><span class="skill-index">08</span><span class="skill-icon">⌁</span><h3>Teamwork</h3><p>Learning and working together</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow">03 / SELECTED WORK</p>
+              <h2>Projects in <span class="accent">focus.</span></h2>
+            </div>
+            <p class="section-aside">Practical ideas that connect technology with everyday needs.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-art project-art-one" aria-hidden="true">
+                <div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>EMPLOYEE RECORDS</span></div><div class="mock-content"><div class="mock-sidebar"></div><div class="mock-table"><b></b><b></b><b></b><b></b><b></b><b></b></div></div></div>
+                <span class="project-number">PROJECT 01</span>
+              </div>
+              <div class="project-info">
+                <div><p class="project-type">INFORMATION MANAGEMENT</p><h3>Employee Management System</h3></div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-description">A system concept for keeping employee information organized and easier to manage.</p>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art project-art-two" aria-hidden="true">
+                <div class="clearance-sheet"><div class="sheet-seal">✓</div><span>STUDENT CLEARANCE</span><b></b><b></b><b></b><div class="sheet-sign">CLEARANCE<br />STATUS <strong>READY</strong></div></div>
+                <span class="project-number">PROJECT 02</span>
+              </div>
+              <div class="project-info">
+                <div><p class="project-type">STUDENT SERVICES</p><h3>Student Clearance System</h3></div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-description">A project idea centered on making student clearance information and progress easier to follow.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">04 / MY BACKGROUND</p>
+            <h2>Education & <span class="accent">growth.</span></h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">CURRENT</div>
+              <div class="timeline-content"><p class="timeline-type">COLLEGE</p><h3>ACLC College</h3><p>Bachelor of Science in Information Technology (BSIT)</p></div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">PREVIOUS</div>
+              <div class="timeline-content"><p class="timeline-type">SECONDARY EDUCATION</p><h3>Kawit National High School</h3><p>Previous school</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section activities-section">
+        <div class="container activities-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">05 / BEYOND THE CLASSROOM</p>
+            <h2>Experience &<br /><span class="accent">activities.</span></h2>
+          </div>
+          <div class="activity-list reveal">
+            <div class="activity-item"><span>01</span><h3>School Activities</h3><span class="activity-plus">↗</span></div>
+            <div class="activity-item"><span>02</span><h3>School Organization</h3><span class="activity-plus">↗</span></div>
+            <div class="activity-item"><span>03</span><h3>Learning and Development</h3><span class="activity-plus">↗</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-panel reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">06 / GET IN TOUCH</p>
+            <h2>Have a project<br />in <span class="accent">mind?</span></h2>
+            <p>I'd be glad to connect. Reach out by email or phone.</p>
+            <a class="button button-primary" href="mailto:baringdustinjames@gmail.com">Send me an email <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-details">
+            <a class="contact-row" href="mailto:baringdustinjames@gmail.com"><span>Email</span><strong>baringdustinjames@gmail.com</strong><span aria-hidden="true">↗</span></a>
+            <a class="contact-row" href="tel:+639946878439"><span>Phone</span><strong>09946878439</strong><span aria-hidden="true">↗</span></a>
+            <div class="contact-row"><span>Location</span><strong>Kawit, Medellin, Cebu</strong><span aria-hidden="true">⌖</span></div>
+          </div>
+          <div class="contact-watermark" aria-hidden="true">DB</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#home"><span class="brand-mark">DB</span>
+        <p>© Dustin Baring <span class="accent">✳</span> <span id="current-year"></span></p>
+      
+      </div>
+    </footer>
+  </body>
+</html>
